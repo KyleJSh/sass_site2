@@ -39,7 +39,7 @@ a {
       line-height: 1.2;
 
       @include tablet {
-        padding: 5rem 0;
+        padding: 1.4rem 0;
       }
 
       @include mobile {
@@ -105,4 +105,8 @@ button a {
   text-transform: uppercase;
   letter-spacing: 3px;
   font-size: 1.3rem;
+
+  @include mobile {
+    font-size: 0.9rem;
+  }
 }
