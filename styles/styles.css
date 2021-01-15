@@ -178,4 +178,16 @@ a {
   background: #7c1208;
   transition: all 0.3s ease-in-out;
 }
+
+button {
+  padding: 5px;
+  margin-top: 10px;
+}
+
+button a {
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 1.3rem;
+}
 /*# sourceMappingURL=styles.css.map */
